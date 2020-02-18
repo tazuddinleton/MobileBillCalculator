@@ -9,16 +9,12 @@ namespace Calculator.ConsoleApp
 
             int pulse = 20;
 
+            var fromDate = Convert.ToDateTime(Console.ReadLine());
+            var toDate = Convert.ToDateTime(Console.ReadLine());
 
 
-
-
-            //var fromDate = Convert.ToDateTime(Console.ReadLine());
-            //var toDate = Convert.ToDateTime(Console.ReadLine());
-            
-
-            var fromDate = Convert.ToDateTime("2019-08-31 08:59:13 am");
-            var toDate = Convert.ToDateTime("2019-08-31 09:00:39 am");
+            //var fromDate = Convert.ToDateTime("2019-08-31 08:59:13 am");
+            //var toDate = Convert.ToDateTime("2019-08-31 09:00:39 am");
 
             var peakStarts = new TimeSpan(9, 0, 0);
             
